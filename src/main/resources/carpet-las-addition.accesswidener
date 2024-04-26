@@ -1,0 +1,3 @@
+accessWidener	v1	named
+accessible class net/minecraft/server/world/ServerWorld$ServerEntityHandler
+accessible method net/minecraft/server/world/ServerEntityManager unload (Lnet/minecraft/world/entity/EntityLike;)V

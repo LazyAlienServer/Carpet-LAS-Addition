@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "carpet-las-addition",
+  "version": "${version}",
+  "name": "Carpet-LAS-Addition",
+  "description": "重构Carpet-LAS-Addition",
+  "authors": [
+    "Fanzhitianyu",
+    "ABxl_lly",
+    "yizhi_jiyan_",
+    "tanh_Heng"
+  ],
+  "contact": {
+    "website": "https://lazyalienserver.top/",
+    "repo": "https://github.com/LazyAlienServer/Carpet-LAS-Addition"
+  },
+  "license": "MIT",
+  "icon": "assets/carpet-las-addition/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "lazyalienserver.carpetlasaddition.CarpetLASClient"
+    ],
+    "main": [
+      "lazyalienserver.carpetlasaddition.CarpetLASServer"
+    ]
+  },
+  "mixins": [
+    "carpet-las-addition.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}",
+    "carpet": ">=1.4.64"
+  }, "custom": {
+  "loom:injected_interfaces": {
+    "net/minecraft/block/WetSpongeBlock": ["net/minecraft/block/Fertilizable"]
+  }
+}
+}
