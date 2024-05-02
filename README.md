@@ -10,6 +10,9 @@ languages: [中文](/README.md) | [English](/docs/en_us/README.md)
 **隶属**：[LazyAlienServer](https://lazyalienserver.top/) -- 计算机技术探究小组   
 **初衷**：为辅助红石机器设计，探究红石技术而生。
 
+**特别感谢**
+- [esuny](https://space.bilibili.com/509817198) - 珍珠加载于弱加载部分逻辑
+
 ## **功能[预期]**
 >**!!进度归零啦**
 - [X] 珍珠加载

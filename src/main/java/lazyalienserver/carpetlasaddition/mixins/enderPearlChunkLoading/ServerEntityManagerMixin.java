@@ -51,4 +51,21 @@ public abstract class ServerEntityManagerMixin<T extends EntityLike>{
         if (!(entity instanceof EnderPearlEntity))  return;
         cir.setReturnValue(false);
     }
+
+    @Inject(at=@At("HEAD"),method = "stopTicking", cancellable = true)
+    public void stopTicking(T entity, CallbackInfo ci){
+        if (!CarpetLASSetting.enderPearlChunkLoading) return;
+        if (!(entity instanceof EnderPearlEntity entity1))  return;
+
+        Vec3d velocity = entity1.getVelocity();
+        World world = entity1.getEntityWorld();
+
+        //判断世界为服务器世界并且xz轴有速度
+        if (!(world instanceof ServerWorld&&(Math.abs(velocity.x) > 0.001 || Math.abs(velocity.z) > 0.001))) return;
+        ci.cancel();
+    }
+//    @Inject(at=@At("HEAD"),method = "stopTracking")
+//    public void stopTracking(T entity, CallbackInfo ci){
+//
+//    }
 }

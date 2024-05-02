@@ -8,6 +8,9 @@ Other languages: [中文](/README.md) | [English](/docs/en_us/README.md)
 **Affiliation**：[LazyAlienServer](https://lazyalienserver.top/) -- Computer Technology Research Team  
 **Purpose**：To assist in redstone machine design and redstone technology research.
 
+**Special Thanks**
+- [esuny](https://space.bilibili.com/509817198) - Pearl loading in weak loading logic
+
 ## **Functionality[Expected]**
 - [X] Pearl Loading
 - [X] Note Block Loading
