@@ -6,6 +6,7 @@
   "mixins": [
     "ServerWorldMixin",
     "SettingsManagerMixin",
+    "enderPearlChunkLoading.EnderPearlEntityMixin",
     "enderPearlChunkLoading.ServerEntityManagerMixin",
     "NoteBlockLoadChunk.NoteBlockMixin",
     "SpongeReproduction.WetSpongeBlockMixin"

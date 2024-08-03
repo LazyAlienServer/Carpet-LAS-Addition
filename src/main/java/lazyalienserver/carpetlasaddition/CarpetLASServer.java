@@ -18,7 +18,7 @@ import java.util.Map;
 public class CarpetLASServer implements ModInitializer,CarpetExtension {
 
     public static final String MOD_NAME = "Carpet-LAS-Addition";
-    public static final String MOD_VERSION = "V1.0.3-240503-alpha";
+    public static final String MOD_VERSION = "V1.1.0-240803-alpha";
     @Override
     public String version(){
         return MOD_VERSION;

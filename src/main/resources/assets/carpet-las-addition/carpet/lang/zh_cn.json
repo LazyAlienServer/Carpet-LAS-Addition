@@ -5,6 +5,9 @@
   "rule.enderPearlChunkLoading.name": "末影珍珠区块加载",
   "rule.enderPearlChunkLoading.desc": "让水平移动的末影珍珠可以强加载区块",
 
+  "rule.enderPearlChunkLoadingTick.name": "限制末影珍珠加载区块的时间",
+  "rule.enderPearlChunkLoadingTick.desc": "限制末影珍珠从珍珠炮中打出后，可以持续加载几gt",
+
   "rule.NoteBlockLoadChunk.name": "音符盒加载",
   "rule.NoteBlockLoadChunk.desc": "充能上方有种着兰花花盆的24档音符盒加载300gt区块[强:3*3,弱:5*5,边界7*7]",
 

@@ -5,6 +5,9 @@
   "rule.EnderPearlChunkLoading.name": "Ender Pearl Chunk loading",
   "rule.EnderPearlChunkLoading.desc": "Allow horizontally moving ender pearls to force chunk loading",
 
+  "rule.enderPearlChunkLoadingTick.name": "Limit the time of chunk loading triggered by an ender pearl",
+  "rule.enderPearlChunkLoadingTick.desc": "Limits the time (gt) of chunk loading triggered by an ender pearl after it is fired from the pearl cannon",
+
   "rule.NoteBlockLoadChunk.name": "NoteBlockLoading",
   "rule.NoteBlockLoadChunk.desc": "Above the charge there is a 24-stop note box with an blue orchid pot loads 300gt Chunk [Strong: 3*3, Weak: 5*5, Boundary 7*7]",
 

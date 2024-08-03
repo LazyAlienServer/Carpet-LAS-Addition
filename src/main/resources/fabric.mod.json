@@ -34,7 +34,8 @@
     "carpet": ">=1.4.64"
   }, "custom": {
   "loom:injected_interfaces": {
-    "net/minecraft/block/WetSpongeBlock": ["net/minecraft/block/Fertilizable"]
+    "net/minecraft/block/WetSpongeBlock": ["net/minecraft/block/Fertilizable"],
+    "net/minecraft/entity/projectile/thrown/EnderPearlEntity": ["lazyalienserver/carpetlasaddition/interfaces/mixins/enderPearlChunkLoading/lastTickInCannonAccess"]
   }
 }
 }

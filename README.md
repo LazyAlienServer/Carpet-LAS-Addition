@@ -16,6 +16,7 @@ languages: [中文](/README.md) | [English](/docs/en_us/README.md)
 ## **功能[预期]**
 >**!!进度归零啦**
 - [X] 珍珠加载
+- [X] 限制珍珠加载tick
 - [X] 音符盒加载
 - [X] 海绵再生
 - [ ] 矿车掉落机制修改（versions<=1.18.2）

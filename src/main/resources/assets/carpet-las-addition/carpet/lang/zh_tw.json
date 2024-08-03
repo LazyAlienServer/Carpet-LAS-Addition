@@ -4,6 +4,9 @@
   "carpet.rule.EnderPearlChunkLoading.name": "終界珍珠區塊加載",
   "carpet.rule.EnderPearlChunkLoading.desc": "讓水平移動的終界珍珠可以強加載區塊",
 
+  "rule.enderPearlChunkLoadingTick.name": "限制末影珍珠加载区块的时间",
+  "rule.enderPearlChunkLoadingTick.desc": "限制末影珍珠从珍珠炮中打出后，可以持续加载几gt",
+
   "rule.NoteBlockLoadChunk.name": "音符盒載入",
   "rule.NoteBlockLoadChunk.desc": "當上方有種植蘭花盆的24階音符盒時，會載入300gt區塊[強:3*3,弱:5*5,邊界7*7]",
 

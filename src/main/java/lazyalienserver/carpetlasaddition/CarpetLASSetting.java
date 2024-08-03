@@ -12,6 +12,11 @@ public class CarpetLASSetting {
     public static boolean enderPearlChunkLoading = false;
 
     @Rule(
+            desc = "Limits the time (gt) of chunk loading triggered by an ender pearl after it is fired from the pearl cannon", category = {LASAddition,FEATURE}, options = {"0","5","10","15","20"}
+    )
+    public static int enderPearlChunkLoadingTick = 5;
+
+    @Rule(
             desc = "Use bone_meal on the sponge, the sponge will randomly convert nearby water into wet sponges in lukewarm_ocean or warm_ocean",category = {LASAddition,SURVIVAL,FEATURE}
     )
     public static boolean SpongeReproduction =false;
@@ -19,6 +24,8 @@ public class CarpetLASSetting {
             desc = "Above the charge there is a 24-stop note box with an blue orchids pot loads 300gt Chunk [Strong: 3*3, Weak: 5*5, Boundary 7*7]",category = {LASAddition,SURVIVAL,CREATIVE}
     )
     public static boolean NoteBlockLoadChunk =false;
+
+
 //    @Rule(
 //            desc = "Replace the minecart drop mechanism with version 1.18.2 with the drop mechanism in version 1.19",category = {LASAddition,SURVIVAL,BUGFIX}
 //    )

@@ -14,14 +14,14 @@ public class ChunkUtils {
 
     public static final ChunkTicketType<ChunkPos> NoteBlockChunkTicket=ChunkTicketType.create("NoteBlock", Comparator.comparingLong(ChunkPos::toLong),300);
 
-    public static final ChunkTicketType<ChunkPos> ENDER_PEARL_TICKET=ChunkTicketType.create("endeer_pearl", Comparator.comparingLong(ChunkPos::toLong),1);
+    public static final ChunkTicketType<ChunkPos> ENDER_PEARL_TICKET=ChunkTicketType.create("ender_pearl", Comparator.comparingLong(ChunkPos::toLong),1);
 
 
     //计算EnderPearlChunkPOS添加ticket
     public static void addEnderPearlTicket(Vec3d pos, ServerWorld world){
         //添加ticket
         ChunkPos cp = new ChunkPos(MathHelper.floor(pos.x) >> 4, MathHelper.floor(pos.z) >> 4);
-        world.getChunkManager().addTicket(ENDER_PEARL_TICKET, cp, 2, cp);
+        world.getChunkManager().addTicket(ENDER_PEARL_TICKET, cp, 1, cp);
     }
 
     public static void addNCNoteBlockChunkTicket(World world, BlockPos pos){
