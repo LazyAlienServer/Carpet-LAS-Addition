@@ -21,7 +21,7 @@ public class ChunkUtils {
     public static void addEnderPearlTicket(Vec3d pos, ServerWorld world){
         //添加ticket
         ChunkPos cp = new ChunkPos(MathHelper.floor(pos.x) >> 4, MathHelper.floor(pos.z) >> 4);
-        world.getChunkManager().addTicket(ENDER_PEARL_TICKET, cp, 1, cp);
+        world.getChunkManager().addTicket(ENDER_PEARL_TICKET, cp, 2, cp);
     }
 
     public static void addNCNoteBlockChunkTicket(World world, BlockPos pos){
